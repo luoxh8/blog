@@ -105,7 +105,7 @@ avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
 
 # the banner image of index
 # top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
-top_img: https://source.unsplash.com/collection/collectionid/1600x900
+# top_img: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
 # 以下鏈接是動態壁紙，每次刷新會更換
 # https://source.unsplash.com/collection/collectionid/1600x900
 # https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
@@ -113,7 +113,8 @@ top_img: https://source.unsplash.com/collection/collectionid/1600x900
 # https://api.dujin.org/bing/1366.php
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/top_img_index.jpg
+#default_top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/top_img_index.jpg
+default_top_img: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
 
 # the default cover of the post
 default_cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
@@ -170,7 +171,8 @@ addThis:
 
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  # sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # https://www.addtoany.com/
 addtoany:
@@ -222,12 +224,12 @@ valine:
 
 #####     Footer Settings    ####
 # ------------------------------------
-since: 2018
+since: 2017
 
-footer_custom_text:
+footer_custom_text: Copyright © 2017 Luoxh. All rights reserved.
 
 footer_copyright:
-  enable: true
+  enable: false
 
 ICP:
   enable: false
@@ -316,7 +318,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: false
+footer_bg: true
 
 # 背景特效
 # 避免卡頓，建議只開啓一個
@@ -332,7 +334,7 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: false
+  enable: true
   mobile: false # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
@@ -347,7 +349,7 @@ canvas_nest:
 
 # 打字效果
 activate_power_mode:
-  enable: false
+  enable: true
 
 # 鼠標點擊效果
 # 避免卡頓，建議只開啓一個
@@ -357,7 +359,7 @@ fireworks:
 
 # 點擊出現愛心
 click_heart:
-  enable: false
+  enable: true
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
@@ -414,18 +416,18 @@ hr:
 subtitle:
   enable: true
   # source調用第三方服務
-  # source: false 關閉調用
-  # source: 1  調用金山詞霸的每日一句（簡體）
+  # source: true # 關閉調用
+  source: 2  # 調用金山詞霸的每日一句（簡體）
   # source: 2  調用一言网的一句話（簡體） #https://hitokoto.cn/
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的内容
-  source: false
+  # source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
-  sub:
+  # sub:
     # - 今日事&#44;今日畢
-    - 最困难的事情就是认识自己。
-    - The hardest thing is knowing yourself.
+    # - 最困难的事情就是认识自己。
+    # - The hardest thing is knowing yourself.
 
 
 ####    側邊欄    ####
@@ -443,7 +445,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感谢访问本站，喜欢的话可以收藏喔。^_^
+  content: 芳龄21的python开发人员。常用技术栈vuejs，express，flask，django，gin，spring，ios，unity
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -457,7 +459,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 9/11/2017 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
@@ -469,7 +471,7 @@ translate:
   #网站默认语言，1: 繁體中文, 2: 简体中文
   defaultEncoding: 2
   #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
-  translateDelay: 0
+  translateDelay: 100
   #博客网址
   cookieDomain: "https://readrou.github.io/"
   #當文字是簡體時，按鈕顯示的文字
@@ -498,7 +500,7 @@ autoChangeMode: false
 # 默認為 fancybox http://fancyapps.com/fancybox/3/
 # 可以選擇改爲 medium_zoom https://github.com/francoischalifour/medium-zoom
 medium_zoom:
-  enable: false
+  enable: true
 
 # Snackbar 彈窗
 # https://github.com/polonel/SnackBar
@@ -506,13 +508,13 @@ medium_zoom:
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: false
-  position: bottom-left
+  position: top-center
   bg_light: '#49b1f5' #light mode時彈窗背景
   bg_dark: '#2d3035' #dark mode時彈窗背景
 
 #百度推送
 baidu_push:
-  enable: false
+  enable: true
 
 # https://instant.page/
 # prefetch預加載
