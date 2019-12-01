@@ -11,6 +11,7 @@ author: Luoxh
 language: zh-CN
 timezone: ''
 
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://ReadRou.github.io
@@ -99,5 +100,4 @@ deploy:
   repo: git@github.com:ReadRou/ReadRou.github.io.git
   branch: master
   message:
-
 
