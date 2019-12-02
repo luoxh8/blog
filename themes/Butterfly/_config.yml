@@ -100,8 +100,8 @@ google_analytics:
 
 # Post info settings
 # ---------------
-# avatar: /img/avatar.png
-avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
+avatar: /img/avatar.png
+#avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar1.png
 
 # the banner image of index
 # top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
@@ -417,17 +417,17 @@ subtitle:
   enable: true
   # source調用第三方服務
   # source: true # 關閉調用
-  source: 2  # 調用金山詞霸的每日一句（簡體）
+  # source: 2  # 調用金山詞霸的每日一句（簡體）
   # source: 2  調用一言网的一句話（簡體） #https://hitokoto.cn/
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的内容
-  # source: false
+  source: true
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
-  # sub:
+  sub:
     # - 今日事&#44;今日畢
-    # - 最困难的事情就是认识自己。
-    # - The hardest thing is knowing yourself.
+    - 最困难的事情就是认识自己。
+    - The hardest thing is knowing yourself.
 
 
 ####    側邊欄    ####
@@ -445,7 +445,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 芳龄21的python开发人员。常用技术栈vuejs，express，flask，django，gin，spring，ios，unity
+  content: 分享我在Python中，遇到的问题，以及解决方案。
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -465,7 +465,7 @@ runtimeshow:
 #----------------------------------------------
 # 簡繁轉換
 translate:
-  enable: true
+  enable: false
   # 默認按鈕顯示文字
   default: 繁
   #网站默认语言，1: 繁體中文, 2: 简体中文
@@ -491,7 +491,7 @@ darkmode:
 # autoChangeMode: 1  跟隨系統而變化，不支持的瀏覽器/系統將按照時間晚上6點到早上6點之間切換為 dark mode
 # autoChangeMode: 2  只按照時間晚上6點到早上6點之間切換為 dark mode
 # autoChangeMode: false 取消自動切換
-autoChangeMode: false
+autoChangeMode: true
 
 ####    other     ####
 #------------------------------------------------
