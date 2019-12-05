@@ -422,7 +422,7 @@ subtitle:
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的内容
-  source: true
+  source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
     # - 今日事&#44;今日畢
@@ -445,7 +445,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 分享我在Python中，遇到的问题，以及解决方案。
+  content: 分享我在Python开发过程中，遇到的坑及解决方案。
 
 # busuanzi count for PV / UV in site
 # 訪問人數
