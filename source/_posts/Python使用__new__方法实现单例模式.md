@@ -1,6 +1,7 @@
 ---
 title: Python使用__new__方法实现单例模式
 date: 2018-06-25
+updated: 2018-07-22
 tags: Python
 categories: 后端开发
 keywords: 

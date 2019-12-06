@@ -1,6 +1,7 @@
 ---
 title: Django使用第三方存储服务器
 date: 2018-05-20
+updated: 2018-06-22
 tags: Django
 categories: 后端开发
 keywords: 
