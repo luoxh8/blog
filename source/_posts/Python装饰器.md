@@ -6,6 +6,8 @@ tags: Python
 categories: 后端开发
 keywords: 
 description: 
+top_img: /img/python_decorator.jpg
+cover: /img/python_decorator.jpg
 ---
 
 一个简单的加法运算：

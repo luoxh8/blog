@@ -6,6 +6,8 @@ tags: Python
 categories: 后端开发
 keywords: 
 description: 
+top_img: /img/singleton.jpg
+cover: /img/singleton.jpg
 ---
 
 

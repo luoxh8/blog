@@ -6,6 +6,8 @@ tags: Django
 categories: 后端开发
 keywords: 
 description: 
+top_img: /img/qiniu.jpg
+cover: /img/qiniu.jpg
 ---
 
 随着服务器运作，难免有些时候需要上传文件。上传文件自然是在云服务器上，日积月累，慢慢地服务器存储空间越来越少。而且服务器迁移和备份都不方便，使用这些资源时也占用大量服务器流量。
