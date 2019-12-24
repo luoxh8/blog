@@ -34,3 +34,9 @@ git清除本地缓存命令如下：
 git rm -r --cached . && git add . && git commit -m 'update .gitignore' && git push
 ```
 
+
+Git强制覆盖服务器端代码
+``` shell
+git push origin master --force
+```
+
