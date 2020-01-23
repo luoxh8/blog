@@ -3,7 +3,7 @@ extends includes/layout.pug
 block content
   if theme.tag_ui == 'index'
     include ./includes/mixins/UI.pug
-    #recent-posts.recent-posts    
+    #recent-posts.recent-posts
       +UI_NEW(page.posts)
       include includes/pagination.pug
     #aside_content.aside_content
@@ -11,7 +11,7 @@ block content
   else
     include ./includes/mixins/article-sort.pug
     #tag
-      .article-sort-title= _p('page.tag') + ' - ' + page.tag
+      .article-sort-title= _p('page.tags') + ' - ' + page.tag
       +articleSort(page.posts)
       include includes/pagination.pug
     #aside_content.aside_content

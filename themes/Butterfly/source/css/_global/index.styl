@@ -47,7 +47,7 @@ body
   background-attachment: local
   background-repeat: no-repeat
   background-position: center
-  
+
 
 h1,
 h2,
@@ -60,7 +60,7 @@ h6
   color: lighten($font-color, 15%)
   font-weight: bold
 
-  code  
+  code
     font-size: inherit !important
 
 #content-outer
@@ -115,7 +115,7 @@ details
     color: $theme-color
 
 // set <caption> of <figure> to center-align
-// use class="not-code" to avoid conflicts because code also use <figure> tag
+// use class="not-code" to avoid conflicts because code also use <figure> tags
 .not-code
   margin: 0.5em
   padding: 0.5em
@@ -142,15 +142,15 @@ table
   color: $pale-grey
 
 
-.full_page #site-title, 
-.full_page #site-sub-title, 
+.full_page #site-title,
+.full_page #site-sub-title,
 #site-name,
 #aside_content .author-info__name,
 #aside_content .author-info__description
   font-family: $site-name-font
 
 .is_right
-  text-align: right 
+  text-align: right
 
 .is_left
   text-align: left
@@ -193,10 +193,10 @@ table
 
 // 懶加載
 .lazyload,
-.lazyloading 
+.lazyloading
 	opacity: 0
 
-.lazyloaded 
+.lazyloaded
 	opacity: 1
 	transition: opacity 0.3s
 
@@ -205,12 +205,12 @@ img[src=""],img:not([src])
 
 .justified-gallery
   margin: 1rem 0
-  
-  img 
+
+  img
     opacity 0
-  .fancybox 
+  .fancybox
     width: auto
-    text-align: inherit    
+    text-align: inherit
   .img-alt
     display: none
 
@@ -221,7 +221,7 @@ img[src=""],img:not([src])
 .medium-zoom-overlay
   z-index: 99999 !important
 
-// hexo tag video
+// hexo tags video
 .video-container
   position: relative
   padding-top: 56.25%
@@ -281,26 +281,26 @@ if hexo-config("avatar_effect") == true
   100%
     opacity: 0.4
     top: 0
-    
-@keyframes header 
-  0% 
+
+@keyframes header
+  0%
     opacity: 0
     transform: translateY(-50px)
-  100% 
+  100%
     opacity: 1
     transform: translateY(0)
 
 @keyframes headerNoOpacity
-  0% 
+  0%
     transform: translateY(-50px)
-  100% 
+  100%
     transform: translateY(0)
 
 @keyframes main
-  0% 
+  0%
     opacity: 0
     transform: translateY(50px)
-  100% 
+  100%
     opacity: 1
     transform: translateY(0)
 
@@ -308,7 +308,7 @@ if hexo-config("avatar_effect") == true
   0%
     opacity: 0
     transform: scale(0.7)
-  100% 
+  100%
     opacity: 1
     transform: scale(1)
 
@@ -316,7 +316,7 @@ if hexo-config("avatar_effect") == true
   0%
     opacity: 1
     transform: scale(1)
-  100% 
+  100%
     opacity: 0
     transform: scale(0.7)
 
@@ -325,7 +325,7 @@ if hexo-config("avatar_effect") == true
     opacity: 0
   100%
     opacity: 1
- 
+
 @keyframes avatar_turn_around
   from
     transform: rotate(0deg)
@@ -355,20 +355,20 @@ if hexo-config("avatar_effect") == true
     transform: scale(1.2)
 
 @keyframes rightside_in_animate
-  0%    
+  0%
     transform: translateX(28px)
   100%
     transform: translateX(0)
 
 @keyframes rightside_out_animate
-  0%    
+  0%
     transform: translateX(0)
   100%
     transform: translateX(28px)
 
 @keyframes right_to_left
-  0%    
+  0%
     transform: translateX(100px)
   100%
     transform: translateX(0)
-  
+

@@ -2,9 +2,9 @@
 title: 用清华源安装homebrew
 date: 2019-01-02
 updated: 2019-01-02
-tags: Homebrew
+tags: mac必备软件
 categories: mac必备软件
-keywords: 
+keywords: Homebrew
 description: 
 top_img: /img/homebrew-logo.png
 cover: /img/homebrew-logo.png
