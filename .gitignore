@@ -7,5 +7,5 @@ public/
 .deploy*/
 yarn.lock
 .deploy_git/
-.idea/
+*.idea/
 *.lock.*
