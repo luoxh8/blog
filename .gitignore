@@ -9,3 +9,4 @@ yarn.lock
 .deploy_git/
 *.idea/
 *.lock.*
+package-lock.json
