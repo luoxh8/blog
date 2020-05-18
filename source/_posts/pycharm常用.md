@@ -1,7 +1,7 @@
 ---
 title: pycharm常用
-date: 2018-11-21
-updated: 2018-11-21
+date: 2020-05-01
+updated: 2020-05-01
 tags: IDE
 categories: IDE
 keywords: 
