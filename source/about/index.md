@@ -5,27 +5,27 @@
 
 联系电话： 13671457693
 
-电子邮箱： [2440336395@qq.com](mailto:2440336395@qq.com)
+电子邮箱： luoxh38383@gmail.com
 
 Github： https://github.com/ReadRou
 
 个人博客：https://readrou.github.io/
 
-期望薪资：14k
+期望薪资：17k
 
  
 
 # 专业技能
 
-3年python工作经验，熟练使用python开发服务端程序
+1. 熟练python3高级编程以及网络编程
 
-熟练使用中间件架构，解耦业务
+2. 熟练django、flask、fastapi等主流框架
 
-有丰富的debug技巧和经验，代码的抽象程度和复用性高，工程能力强
+3. 熟练mysql、mongodb、pq、redis等主流数据库
 
-熟悉使用git进行项目管理，能友好的进行多人协作开发
+4. 熟练使用多线程、协程、高并发调优、数据库拆表、异常监控、紧急扩容等
 
-曾参加过蓝桥杯算法比赛，且获得奖项
+5. 熟练分布式部署、docker部署、灰度发布、nginx、rabbitmq等等
 
 
 
@@ -43,7 +43,7 @@ Github： https://github.com/ReadRou
 
 目前任职“广州一花互动科技有限公司”的研发部门，该公司具有自主研发的自动化平台项目，月流水在千万级。
 
-**主要工作**：在该部门负责后端分布式架构设计，复杂的业务逻辑编写，对接阿里的mqtt，用websocket做实时通讯的替代方案，阿里云的mqtt对接手机端。
+**主要工作**：在该部门负责后端分布式架构设计，复杂的业务逻辑编写，对接阿里的mqtt，用websocket协议实现im推送服务器，阿里云的mqtt对接手机端。
 
  
 
