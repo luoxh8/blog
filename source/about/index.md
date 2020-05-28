@@ -25,7 +25,7 @@ Github： https://github.com/ReadRou
 
 4. 熟练使用多线程、协程、高并发调优、数据库拆表、异常监控、紧急扩容等
 
-5. 熟练分布式部署、docker部署、灰度发布、nginx、rabbitmq等等
+5. 熟练分布式架构开发，docker部署、灰度发布、nginx、rabbitmq等等
 
 
 
