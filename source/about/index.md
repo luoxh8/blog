@@ -18,14 +18,13 @@ Github： https://github.com/ReadRou
 # 专业技能
 
 1. 熟练python高级编程以及网络编程
-
-2. 熟练django、flask、fastapi等主流框架
-
-3. 熟练mysql、mongodb、pq、redis等主流数据库
-
-4. 熟练使用多线程、线程池、协程、数据库表设计及迁移、异常监控和推送、服务器扩容、定时任务等
-
-5. 熟练分布式架构开发、高并发系统设计、docker部署、灰度发布、nginx、rabbitmq等等
+2. 熟练django、flask、fastapi、sanic、starlette等主流框架
+3. 熟练使用mysql、mongodb、redis、rabbitmq等
+4. 熟练使用python的多线程、线程池、协程、定时任务
+5. 熟练编写脚本迁移数据库的数据，设计数据表
+6. 熟练使用中间件，编写服务器异常监控、异常信息推送，时刻监控服务器的健康状况
+7. 熟系分布式架构开发、高并发系统设计
+8. 熟练使用docker打包业务、jenkins管理、nginx配置、rabbitmq服务器部署等等
 
 
 
@@ -65,7 +64,7 @@ Github： https://github.com/ReadRou
 | -------------------------- | ----------------- |
 |                            |                   |
 
-**职位**：Python开发外包
+**职位**：Python开发
 
 曾任职”广州友效达网络科技有限公司“开发部门。主营”悠饭团餐“业务，是在友宝智能售货终端的硬件基础上，为企业提供最优质的团餐解决方案等等。
 
