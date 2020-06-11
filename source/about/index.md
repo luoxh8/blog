@@ -23,7 +23,7 @@ Github： https://github.com/ReadRou
 
 3. 熟练mysql、mongodb、pq、redis等主流数据库
 
-4. 熟练使用多线程、线程池、协程、数据库表设计及迁移、异常监控和推送、服务器扩容等
+4. 熟练使用多线程、线程池、协程、数据库表设计及迁移、异常监控和推送、服务器扩容、定时任务等
 
 5. 熟练分布式架构开发、高并发系统设计、docker部署、灰度发布、nginx、rabbitmq等等
 
@@ -43,7 +43,7 @@ Github： https://github.com/ReadRou
 
 目前任职“广州一花互动科技有限公司”的研发部门，该公司具有自主研发的自动化平台项目，月流水在千万级。
 
-**主要工作**：在该部门负责后端分布式架构设计，复杂的业务逻辑编写，对接阿里的mqtt，用websocket协议实现im推送服务器（含角色权限推送），阿里云的mqtt对接手机端，rabbitmq接入业务逻辑解耦。
+**主要工作**：在该部门负责后端分布式架构设计，复杂的业务逻辑编写，对接阿里的mqtt，用websocket协议实现im推送服务器（含角色权限推送），阿里云的mqtt对接手机端，rabbitmq接入业务逻辑解耦，定时器模块编写。
 
  
 
@@ -105,11 +105,13 @@ admin预览地址：http://admin.fengniaopays.com/
 
 docker内部安装了rabbitmq，用于task和card的信息流转，主要是发布转账任务到rabbitmq里面，card通过消费获取task的消息，然后通过mqtt发送给手机端，进行实际的转账自动化操作。
 
+
+
 三期预计使用grpc简化这一流程。
 
 
 
-后端技术栈，flask，fastapi，mongodb，docker，nginx，rabbitmq，线程池
+后端技术栈，flask，fastapi，mongodb，docker，nginx，rabbitmq，apscheduler
 
 
 
