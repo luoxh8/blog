@@ -293,7 +293,7 @@ docker内部安装了rabbitmq，用于task和card的信息流转，主要是发�
 
 
 
-**主要技术**：flask，pymongo，flask-wtf
+**主要技术**：flask，pymongo，flask-wtf，rabbitmq，apscheduler
 
 
 
