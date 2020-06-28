@@ -24,7 +24,7 @@ Github： https://github.com/ReadRou
 5. 熟练编写脚本迁移数据库的数据，设计数据表
 6. 熟练使用中间件，编写服务器异常监控、异常信息推送，时刻监控服务器的健康状况
 7. 熟系分布式架构开发、高并发系统设计
-8. 熟练使用docker打包业务、jenkins管理、nginx配置、rabbitmq服务器部署等等
+8. 熟练使用docker打包业务应用、jenkins管理容器、nginx配置、rabbitmq服务器部署等等
 
 
 

@@ -24,10 +24,10 @@ git push
 
 .gitignore不生效：
 
-``` powershell
+``` shell
 git rm -r --cached .
 git add .
-git commit -m "quich update .gitignore $(date "+%Y-%m-%d %H:%M:%S")"
+git commit -m "quick update .gitignore $(date "+%Y-%m-%d %H:%M:%S")"
 git push
 ```
 
