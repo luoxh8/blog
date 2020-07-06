@@ -97,8 +97,8 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:ReadRou/ReadRou.github.io.git
-#  repo: git@gitee.com:readrou/readrou.git
+  # repo: git@github.com:ReadRou/ReadRou.github.io.git
+  # repo: git@gitee.com:readrou/readrou.git
   branch: master
   message:
 

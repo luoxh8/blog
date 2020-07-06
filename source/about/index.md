@@ -5,7 +5,7 @@
 
 联系电话： 13671457693
 
-电子邮箱： luoxh38383@gmail.com
+电子邮箱： readrou@qq.com
 
 Github： https://github.com/ReadRou
 

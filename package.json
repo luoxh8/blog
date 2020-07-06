@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate && cp -r love public",
-    "rebuild": "hexo clean && hexo generate && cp -r love public",
+    "build": "hexo generate ",
+    "rebuild": "hexo clean && hexo generate ",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "redeploy": "hexo clean && hexo generate && cp -r love public &&  hexo deploy",
+    "redeploy": "hexo clean && hexo generate  &&  hexo deploy",
     "server": "hexo server",
-    "reserver": "hexo clean && hexo generate && cp -r love public && hexo server"
+    "reserver": "hexo clean && hexo generate  && hexo server"
   },
   "hexo": {
     "version": "4.2.1"
