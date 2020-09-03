@@ -14,13 +14,13 @@ cover: /img/docker.jpeg
 
 重新打包新镜像
 
-```shell script
+```shell
 docker build -t docker001:1.0.2 .
 ```
 
 启动一个新的容器
 
-```shell script
+```shell
 docker run -d \
 -p 8123:80 \
 -v /root/test:/docker001 \
@@ -30,7 +30,7 @@ docker001:1.0.2
 
 启动一个新的容器测试
 
-```shell script
+```shell
 docker run -it \
 -v /root/test:/docker001 \
 -p 8333:80 \

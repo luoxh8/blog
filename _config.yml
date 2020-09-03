@@ -97,8 +97,8 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:luoxh8/luoxh8.github.io.git
-#  repo: git@gitee.com:luoxh8/luoxh8.git
+#  repo: git@github.com:luoxh8/luoxh8.github.io.git
+  repo: git@gitee.com:luoxh8/luoxh8.git
   branch: master
   message:
 
