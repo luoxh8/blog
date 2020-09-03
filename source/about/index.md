@@ -7,9 +7,9 @@
 
 电子邮箱： luoxh8@qq.com
 
-Github： https://github.com/ReadRou
+Github： https://github.com/luoxh8
 
-个人博客：https://readrou.gitee.io/
+个人博客：https://luoxh8.gitee.io/
 
 期望薪资：面议
 
