@@ -14,7 +14,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://readrou.gitee.io/
+url: https://luoxh8.gitee.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -97,8 +97,8 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:luoxh8/luoxh8.github.io.git
-#  repo: git@gitee.com:luoxh8/luoxh8.git
+#  repo: git@github.com:luoxh8/luoxh8.github.io.git
+  repo: git@gitee.com:luoxh8/luoxh8.git
   branch: master
   message:
 

@@ -16,7 +16,7 @@ cover: /img/pycharm.png
 
 ``` python
 # @author: luoxh
-# @contact: 2440336395@qq.com
+# @contact: luoxh8@qq.com
 # @software: ${SOFTWARE}
 # @project: ${PROJECT_NAME}
 # @file: ${NAME}.py

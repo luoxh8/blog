@@ -473,7 +473,7 @@ translate:
   #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 100
   #博客网址
-  cookieDomain: "https://readrou.gitee.io/"
+  cookieDomain: "https://luoxh8.gitee.io/"
   #當文字是簡體時，按鈕顯示的文字
   msgToTraditionalChinese: "繁"
   #當文字是繁體時，按鈕顯示的文字
