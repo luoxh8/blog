@@ -176,7 +176,8 @@ admin地址：http://admin.fengniaopays.com/
 1. 实现后端api、以及管理页面
 2. 编写nginx配置，添加https协议
 3. 使用wagon自动发布应用
-4. 
+
+
 
 主要使用到的技术：spring boot、wagon、mysql、hibernate
 
