@@ -17,17 +17,15 @@ Github： https://github.com/luoxh8
 
 # 技能描述
 
-2年工作经验，Python专家，目前使用Python和Java完成项目。
-
-
+2年工作经验
 
 目前使用的技术栈：
 
-flask、django、starlette、uvloop、git、nginx、docker、mongo、redis、spring
+spring、git、nginx、docker、mongo、redis、mysql
 
 
 
-擅长应用服务化（无关语言框架）
+擅长应用服务化
 
 擅长多线程、多进程、协程、异步
 
@@ -35,7 +33,7 @@ flask、django、starlette、uvloop、git、nginx、docker、mongo、redis、spr
 
 擅长 rabbitmq 消息服务
 
-擅长mongodb 、redis、mysql数据库使用
+擅长 mongodb 、redis、mysql 数据库使用
 
 擅长 vue.js、uni-app等前端技术
 
@@ -50,7 +48,7 @@ flask、django、starlette、uvloop、git、nginx、docker、mongo、redis、spr
 |                          |              |
 
 
-职位：Python开发
+职位：Java开发
 
 产品：蜂鸟支付、流盟数字营销云
 
@@ -58,7 +56,7 @@ flask、django、starlette、uvloop、git、nginx、docker、mongo、redis、spr
 
 **蜂鸟支付**
 
-角色：Python开发、运维
+角色：Java开发、运维
 
 ka/dealer地址：https://ka.fengniaopays.com/
 
@@ -80,7 +78,7 @@ admin地址：http://admin.fengniaopays.com/
 
 由用户模块、任务模块、设备模块、消息推送组成
 
-通过docker内置的nginx转发请求，到对应的web模块进行处理，同时集成了定时任务（apscheduler）用于定期清除无用数据
+通过docker内置的nginx转发请求，到对应的web模块进行处理，同时集成了定时任务（Quartz）用于定期清除无用数据
 
 
 
@@ -95,7 +93,7 @@ admin地址：http://admin.fengniaopays.com/
 
 
 
-主要使用到的技术：flask，fastapi，mongodb，docker，nginx，rabbitmq，apscheduler、mqtt、websocket
+主要使用到的技术：spring boot，docker，nginx，rabbitmq，Quartz、mqtt、websocket
 
 
 
@@ -128,7 +126,7 @@ admin地址：http://admin.fengniaopays.com/
 1. 实现任务模块、用户模块的接口
 2. 实现异步email发送service
 3. 实现线程池 bean 对象
-4. 实现CacheInterceptor，在标注了@Cache注解的接口，自动缓存其结果
+4. 实现CacheInterceptor，在标注了 @Cache 注解的接口，自动缓存其结果
 5. 实现log日志回传模块
 6. 编写nginx配置，添加https协议，以及子域名的分配
 7. 使用wagon自动发布应用
